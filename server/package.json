@@ -1,0 +1,35 @@
+{
+  "name": "server",
+  "version": "1.0.0",
+  "main": "index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "description": "",
+  "dependencies": {
+    "axios": "^1.7.2",
+    "cloudinary": "^2.4.0",
+    "cors": "^2.8.5",
+    "dotenv": "^16.4.5",
+    "express": "^4.19.2",
+    "formidable": "^3.5.1",
+    "fs": "^0.0.1-security",
+    "mailgun-js": "^0.22.0",
+    "multer": "^1.4.5-lts.1",
+    "node-cron": "^3.0.3",
+    "node-mailjet": "^6.0.5",
+    "nodemailer": "^6.9.14",
+    "nodemon": "^3.1.4",
+    "oauth-1.0a": "^2.2.6",
+    "path": "^0.12.7",
+    "qs": "^6.12.3",
+    "react-icons": "5.2.1",
+    "reddit": "^1.2.1",
+    "threads-api": "^1.6.3",
+    "threads-graph-api": "^0.1.0",
+    "twitter-api-v2": "^1.16.4"
+  }
+}

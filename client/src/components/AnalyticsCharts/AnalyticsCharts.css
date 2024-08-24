@@ -1,0 +1,73 @@
+.social-metrics {
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+}
+
+.social-metrics h2 {
+  font-size: 24px;
+  margin-bottom: 20px;
+  color: #333;
+}
+
+.chart-container {
+  width: 100%;
+  height: auto;
+  margin: 0 auto;
+}
+
+.section-title {
+  font-size: 24px;
+  padding: 20px;
+  margin-bottom: 20px;
+  text-align: center;
+}
+
+.engagement-metrics-section,
+.distribution-section {
+  background-color: #fff;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  width: calc(100% - 60px); /* Adjust for margins */
+  margin: 30px auto; /* Center align and adjust margin */
+  justify-content: center;
+}
+
+.distribution-section {
+  display: flex;
+  gap: 20px;
+  flex-wrap: wrap;
+}
+
+.chart-box {
+  flex: 1;
+  background-color: #fff;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
+  min-width: 250px; /* Ensure a minimum width for smaller screens */
+  padding: 10px;
+  box-sizing: border-box; /* Include padding in width calculations */
+}
+
+@media (max-width: 768px) {
+  .social-metrics {
+    padding: 10px;
+  }
+
+  .engagement-metrics-section,
+  .distribution-section {
+    margin: 15px auto; /* Reduced margin for smaller screens */
+    width: calc(100% - 30px); /* Adjust width for smaller screens */
+  }
+
+  .distribution-section {
+    flex-direction: column;
+  }
+
+  .distribution-section .chart-box {
+    margin-bottom: 20px;
+  }
+
+  .distribution-section .chart-box:last-child {
+    margin-bottom: 0;
+  }
+}
